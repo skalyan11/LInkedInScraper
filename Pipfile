@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain-community = "*"
+langchain-openai = "*"
+tiktoken = "*"
+langchain = "*"
+psycopg2-binary = "*"
+python-dotenv = "*"
+pgvector = "*"
+openai = "*"
+textloader = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
