@@ -7,7 +7,7 @@ from langchain_community.vectorstores import PGVector
 
 import tiktoken
 
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = ""
 
 loader = TextLoader("davem.txt")
 documents = loader.load()
